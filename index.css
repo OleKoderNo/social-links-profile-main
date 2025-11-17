@@ -60,6 +60,7 @@ ul {
 	padding: 0;
 }
 
+main li,
 main a {
 	width: 260px;
 	background-color: var(--grey-700);
@@ -71,7 +72,8 @@ main a {
 	text-decoration: none;
 }
 
-main a:hover {
+main li:hover,
+main li:hover a {
 	background-color: var(--green);
 	color: black;
 }
