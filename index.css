@@ -34,7 +34,6 @@ section {
 	border-radius: 1rem;
 	width: 280px;
 	padding: 1.25rem 0;
-	margin: 0 a;
 }
 
 h1 {
@@ -103,7 +102,7 @@ p:not(.location) {
 	color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
 	section {
 		padding: 2rem 3rem;
 	}
